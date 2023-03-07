@@ -74,7 +74,8 @@
     justify-content: space-between;
 }
 
-.buttons>a {
+.buttons>a,
+.buttons>button {
     width: 75px;
     padding: .5rem 0;
     text-align: center;
@@ -87,6 +88,7 @@
 .buttons>:first-child {
     color: #fff;
     background: #2a6eff;
+    border-color: transparent;
 }
 
 .buttons>:last-child {
